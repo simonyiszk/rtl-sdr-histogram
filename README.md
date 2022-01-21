@@ -1,5 +1,5 @@
 # rtl-sdr-histogram
-Hisztogramrajzoló RTL-SDR szoftverrádióhoz az I és Q komponensek előfordulási gyakoriságának vizsgálatára egy mintában, raw fájlban vagy valósidejű adatfolyamban. Linux és gnuplot használatával.
+Hisztogramrajzoló RTL-SDR szoftverrádióhoz az I és Q komponensek előfordulási gyakoriságának vizsgálatára egy mintában, raw fájlban vagy valósidejű adatfolyamban, linux és gnuplot használatával.
 
 ![alt text](https://github.com/simonyiszk/rtl-sdr-histogram/blob/main/histogram_demo.jpg?raw=true)
 
@@ -8,12 +8,12 @@ Hisztogramrajzoló RTL-SDR szoftverrádióhoz az I és Q komponensek előfordul�
 gcc rtl-sdr-histogram.c -o histogram
 </code>
 
-### Használat valósidejű adat megjelenítéshez
+### Valósidejű adatfolyam feldolgozása
 <code>
 rtl_sdr -f [frekvencia Herz-ben] (további opciók ízlés szerint...) | ./histogram
 </code>
 
-### Raw adafájl feldolgozása
+### Adatfájl feldolgozása
 <code>
 ./histogram [fájlnév]
 </code>
