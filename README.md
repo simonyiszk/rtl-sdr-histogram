@@ -10,7 +10,7 @@ gcc rtl-sdr-histogram.c -o histogram
 
 ### Használat valósidejű adat megjelenítéshez
 <code>
-rtl-sdr -f [frekvencia Herz-ben] | ./histogram
+rtl_sdr -f [frekvencia Herz-ben] | ./histogram
 </code>
 
 ### Raw adafájl feldolgozása
